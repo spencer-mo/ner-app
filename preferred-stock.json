@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "id": "common-stock",
+      "normalizedText": ["Common Stock"],
+      "type": "common-stock"
+    },
+    {
+        "id": "series-preferred-stock",
+        "normalizedText": [
+            "Series A Preferred Stock", 
+            "Series A-1 Preferred Stock", 
+            "Series Preferred Stock", 
+            "Series AA Preferred Stock",
+            "Series B Preferred Stock",
+            "Series Seed Preferred Stock"
+        ],
+        "type": "series-preferred-stock"
+    },
+    {
+        "id": "shares-reserved",
+        "normalizedText": [
+            "Authorized For...[Shares]",
+            "Reserved Shares",
+            "[Shares]...Reserved",
+            "[Shares]...Authorized For"
+        ],
+        "type": "shares"
+    },
+    {
+        "id": "shares-max",
+        "normalizedText": [
+            "Up To...[Shares]",
+            "Up To...[In]",
+            "Not Exceed...[In]",
+            "Not Exceed...[Shares]"
+        ],
+        "type": "shares"
+    },
+    {
+        "id": "shares-issued",
+        "normalizedText": [
+            "[Shares]...Are Issued",
+            "Are Issued...[Shares]",
+            ",...[Of Which Are]"
+        ],
+        "type": "shares"
+    },
+    {
+        "id": "shares",
+        "normalizedText": [
+            "Shares",
+            "Are Designated",
+            "Is Designated"
+        ],
+        "type": "shares"
+    },
+    {
+      "id": "purchase-agreement-date",
+      "normalizedText": ["Purchase Agreement Date", "Purchase Agreement"],
+      "type": "purchase-agreement-date"
+    },
+    {
+      "id": "investment-portfolio",
+      "normalizedText": ["Investment Portfolio"],
+      "type": "organization"
+    },
+    {
+      "id": "issue-date",
+      "normalizedText": ["Issue Date", "Date of Issuance", "Issued on"],
+      "type": "issue-date"
+    },
+    {
+      "id": "purchase-price",
+      "normalizedText": ["Purchase Price"],
+      "type": "purchase-price"
+    },
+    {
+      "id": "conversion-date",
+      "normalizedText": ["Conversion Date", "Conversion"],
+      "type": "conversion-date"
+    },
+    { "id": "par-value", "normalizedText": ["Par Value"], "type": "par-value" },
+    {
+      "id": "purchase-option-amount",
+      "normalizedText": ["Options to Purchase", "Purchase Option Amount"],
+      "type": "purchase-option-amount"
+    },
+    {
+      "id": "additional-shares",
+      "normalizedText": ["Additional Shares"],
+      "type": "additional-shares"
+    },
+    {
+      "id": "outstanding-convertible-note",
+      "normalizedText": [
+        "Outstanding Convertible Note",
+        "Outstanding Convertible Notes",
+        "Convertible Promissory Notes"
+      ],
+      "type": "outstanding-convertible-note"
+    }
+  ]
+}
